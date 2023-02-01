@@ -1,0 +1,28 @@
+{
+  "name": "@mologtech-com/winsw-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:win": "pkg -t node14-win-x64 -o dist/winsw-manager.exe index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mologtech-com/winsw-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mologtech-com/winsw-manager/issues"
+  },
+  "homepage": "https://github.com/mologtech-com/winsw-manager#readme",
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "execa": "^5.1.1",
+    "lodash": "^4.17.21"
+  }
+}
